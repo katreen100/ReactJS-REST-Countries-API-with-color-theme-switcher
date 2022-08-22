@@ -1,0 +1,61 @@
+
+*{
+  font-family:  Nunito Sans;
+}
+.country-card{
+  display: flex;
+  flex-flow: column;
+ 
+}
+.countrycard-body{
+  justify-content: flex-end;
+  border-radius:0 0 10px 10px ;
+}
+.country-title{
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  padding-top: 5px;
+}
+.title{
+  font-weight: 600;
+}
+.property{
+  font-weight: 300;
+}
+.country-img{
+  border-radius: 10px 10px 0 0;
+}
+/* dark mood */
+.darkmoodbody{
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+}
+.darkmooddiv{
+  background-color:hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 100%);
+}
+.titlecolorDarkmood{
+  color:hsl(0, 0%, 100%); 
+}
+.darkmoodNavbar{
+  background-color:hsl(209, 23%, 22%);
+  color:hsl(0, 0%, 100%);
+}
+.countrTitleDarkmood{
+  text-decoration: none;
+  color:hsl(0, 0%, 100%);
+  font-weight: 800;
+  padding-top: 5px;
+}
+.maindivDarkMood{
+  background-color: black;
+  color:hsl(0, 0%, 100%) ;
+}
+.darkbutton{
+  background-color:hsl(209, 23%, 22%);
+  color:hsl(0, 0%, 100%);
+  border:none;
+  border-radius: 5%;
+padding: 1%;
+}
